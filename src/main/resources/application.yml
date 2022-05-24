@@ -1,0 +1,17 @@
+server:
+    port: 9099
+
+spring:
+    application:
+        name: registerationstudent
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/registerationstudent2?serverTimezone=UTC
+        username: root
+        password: 
+        nitialization-mode: always
+    jpa:
+        hibernate:
+            ddl-auto: update
+
+
